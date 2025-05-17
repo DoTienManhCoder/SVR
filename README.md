@@ -1,37 +1,10 @@
-# [EvTexture (ICML 2024)](https://proceedings.mlr.press/v235/kai24a.html)
-
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/evtexture-event-driven-texture-enhancement/video-super-resolution-on-vid4-4x-upscaling)](https://paperswithcode.com/sota/video-super-resolution-on-vid4-4x-upscaling?p=evtexture-event-driven-texture-enhancement)
-[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/evtexture-event-driven-texture-enhancement/video-super-resolution-on-reds4-4x-upscaling)](https://paperswithcode.com/sota/video-super-resolution-on-reds4-4x-upscaling?p=evtexture-event-driven-texture-enhancement)
-
-Official Pytorch implementation for the "EvTexture: Event-driven Texture Enhancement for Video Super-Resolution" paper (ICML 2024).
-
-<p align="center">
-    🌐 <a href="https://dachunkai.github.io/evtexture.github.io/" target="_blank">Project</a> | 📃 <a href="https://arxiv.org/abs/2406.13457" target="_blank">Paper</a> | 🖼️ <a href="https://docs.google.com/presentation/d/1nbDb39TFb374DzBwdz5v20kIREUA0nBH/edit?usp=sharing" target="_blank">Poster</a> <br>
-</p>
-
-**Authors**: [Dachun Kai](https://github.com/DachunKai/)<sup>[:email:️](mailto:dachunkai@mail.ustc.edu.cn)</sup>, Jiayao Lu, [Yueyi Zhang](https://scholar.google.com.hk/citations?user=LatWlFAAAAAJ&hl=zh-CN&oi=ao)<sup>[:email:️](mailto:zhyuey@ustc.edu.cn)</sup>, [Xiaoyan Sun](https://scholar.google.com/citations?user=VRG3dw4AAAAJ&hl=zh-CN), *University of Science and Technology of China*
-
-**Feel free to ask questions. If our work helps, please don't hesitate to give us a :star:!**
-
-## :rocket: News
-- [ ] Provide a script for inference on the user's own video
-- [x] 2024/07/02: Release the colab file for a quick test
-- [x] 2024/06/28: Release details to prepare datasets
-- [x] 2024/06/08: Publish docker image
-- [x] 2024/06/08: Release pretrained models and test sets for quick testing
-- [x] 2024/06/07: Video demos released
-- [x] 2024/05/25: Initialize the repository
-- [x] 2024/05/02: :tada: :tada: Our paper was accepted in ICML'2024
-
 ## :bookmark: Table of Content
 1. [Video Demos](#video-demos)
 2. [Code](#code)
 3. [Citation](#citation)
-4. [Contact](#contact)
-5. [License and Acknowledgement](#license-and-acknowledgement)
+
 
 ## :fire: Video Demos
-A $4\times$ upsampling results on the [Vid4](https://paperswithcode.com/sota/video-super-resolution-on-vid4-4x-upscaling) and [REDS4](https://paperswithcode.com/dataset/reds) test sets.
 
 https://github.com/DachunKai/EvTexture/assets/66354783/fcf48952-ea48-491c-a4fb-002bb2d04ad3
 
@@ -115,9 +88,17 @@ https://github.com/DachunKai/EvTexture/assets/66354783/01880c40-147b-4c02-8789-c
 ### Inference on your own video
 :hammer_and_wrench: We are developing a convenient script to allow users to quickly use our EvTexture model to upscale their own videos. However, our spare time is limited, so please stay tuned!
 
-## :blush: Citation
-If you find the code and pre-trained models useful for your research, please consider citing our paper. :smiley:
-```
+## 😊 Citation and References
+
+This project is inspired by and builds upon the following works:
+
+- **EvTexture: Event-driven Texture Enhancement for Video Super-Resolution**  
+  Project page: [https://dachunkai.github.io/evtexture.github.io/](https://dachunkai.github.io/evtexture.github.io/)  
+  arXiv preprint: [https://arxiv.org/abs/2406.13457](https://arxiv.org/abs/2406.13457)
+
+If you use this code or ideas in your work, please also consider citing the original paper:
+
+```bibtex
 @inproceedings{kai2024evtexture,
   title={{E}v{T}exture: {E}vent-driven {T}exture {E}nhancement for {V}ideo {S}uper-{R}esolution},
   author={Kai, Dachun and Lu, Jiayao and Zhang, Yueyi and Sun, Xiaoyan},
@@ -127,11 +108,3 @@ If you find the code and pre-trained models useful for your research, please con
   volume={235},
   publisher={PMLR}
 }
-```
-
-## Contact
-If you meet any problems, please describe them in issues or contact:
-* Dachun Kai: <dachunkai@mail.ustc.edu.cn>
-
-## License and Acknowledgement
-This project is released under the Apache-2.0 license. Our work is built upon [BasicSR](https://github.com/XPixelGroup/BasicSR), which is an open source toolbox for image/video restoration tasks. Thanks to the inspirations and codes from [RAFT](https://github.com/princeton-vl/RAFT), [event_utils](https://github.com/TimoStoff/event_utils) and [EvTexture-jupyter](https://github.com/camenduru/EvTexture-jupyter).
