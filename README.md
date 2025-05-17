@@ -1,7 +1,7 @@
 ## :bookmark: Table of Content
 1. [Video Demos](#video-demos)
 2. [Code](#code)
-3. [Citation](#citation)
+3. [Citation and References](#citation-and-references) 
 
 
 ## :fire: Video Demos
